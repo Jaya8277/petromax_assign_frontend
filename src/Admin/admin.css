@@ -1,0 +1,44 @@
+.main1{
+
+height: 100vh;
+}
+.main1 h1{
+text-align: center;
+color: rgb(28, 0, 87);
+text-decoration: underline;
+}
+.main{
+    margin-top: 40px;
+ 
+    display: grid;
+    margin-left: 20px;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(4, auto);
+    grid-row-gap:4em;
+}
+.main >input{
+    
+    border-radius: 20px;
+    /* width: 30vw; */
+    padding: 15px;
+   margin: 5px;
+    border: none;
+    background: linear-gradient(90deg, rgb(209, 204, 220) 0rgb(227, 223, 235),1) 22%, rgb(255, 255, 255) 30%;
+    border: 1px solid gray;
+}
+.btn{
+ width: 20vw;
+    height: 40px;
+    margin-top: 25px;
+    padding: 0px 20px 0px 20px;
+    font-size: 24px;
+    color: #ffffff;
+    background-color: rgb(28, 0, 87);
+    border-radius: 20px;
+    border: none;
+    margin-left: 10%;
+    height: 8vh;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+      sans-serif;
+    font-weight: 700;
+}
